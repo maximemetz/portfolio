@@ -1,0 +1,7 @@
+.page {
+    box-shadow: 0 1px 3px hsla(0,0%,39%,.45);
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+    padding: 70px 64px;
+    margin: 4% 10%;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    margin-top : 10%;
+    margin-bottom: 10%;
+    background-color: #FFF;
+    border-color: #0C325f;
+    /*#00ffd1*/
+}
+
+.navbar-brand{
+    color: #000;
+}
+
+.navbar-brand:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 200%;
+    font-weight: 700;
+    vertical-align: middle;
+    color: #000;
+    outline: 0;
+    margin-top : 5%;
+}
+
+.active{
+    font-weight: bold;
+}
