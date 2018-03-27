@@ -6,23 +6,23 @@
 <nav class="navbar navbar-default">
 
   <div *ngIf="active=='accueil'" class="active">
-    <a class="navbar-brand" href="#" (click)="onSelect('accueil')">Accueil</a>
+    <a class="navbar-brand" href="accueil" (click)="onSelect('accueil')">Accueil</a>
   </div>
-  <a class="navbar-brand" href="#" *ngIf="active!='accueil'" (click)="onSelect('accueil')">Accueil</a>
+  <a class="navbar-brand" href="accueil" *ngIf="active!='accueil'" (click)="onSelect('accueil')">Accueil</a>
 
   <div *ngIf="active=='cv'" class="active">
-    <a class="navbar-brand" href="#" (click)="onSelect('cv')">CV</a>
+    <a class="navbar-brand" href="cv" (click)="onSelect('cv')">CV</a>
   </div>
-  <a class="navbar-brand" href="#" *ngIf="active!='cv'" (click)="onSelect('cv')">CV</a>
+  <a class="navbar-brand" href="cv" *ngIf="active!='cv'" (click)="onSelect('cv')">CV</a>
 
   <div *ngIf="active=='veillej'" class="active">
-    <a class="navbar-brand" href="#" (click)="onSelect('veillej')">Veille juridique</a>
+    <a class="navbar-brand" href="veillej" (click)="onSelect('veillej')">Veille juridique</a>
   </div>
-  <a class="navbar-brand" href="#" *ngIf="active!='veillej'" (click)="onSelect('veillej')">Veille juridique</a>
+  <a class="navbar-brand" href="veillej" *ngIf="active!='veillej'" (click)="onSelect('veillej')">Veille juridique</a>
 
   <div *ngIf="active=='veillet'" class="active">
-    <a class="navbar-brand" href="#" (click)="onSelect('veillet')">Veille technologique</a>
+    <a class="navbar-brand" href="veillet" (click)="onSelect('veillet')">Veille technologique</a>
   </div>
-  <a class="navbar-brand" href="#" *ngIf="active!='veillet'" (click)="onSelect('veillet')">Veille technologique</a>
+  <a class="navbar-brand" href="veillet" *ngIf="active!='veillet'" (click)="onSelect('veillet')">Veille technologique</a>
 
 </nav>
