@@ -7,11 +7,15 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
 
-  constructor() { }
-
-  active = 'accueil';
-
   @Output() selectedPage = new EventEmitter<string>();
+  active = '';
+  fields = [];
+
+  constructor() {
+    this.fields = window.location.href.split('/#/');
+    this.active = this.fields[1];
+    console.log(this.active);
+  }
 
   onSelect(page: string) {
     this.active = page;
