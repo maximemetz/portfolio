@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Flavien JOURDREN <flavien.jourdren@gmail.com>
+MAINTAINER Flavien JOURDREN <email@fjourdren.com>
 
 
 # Install Node.js
