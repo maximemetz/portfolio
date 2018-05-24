@@ -4,7 +4,7 @@ MAINTAINER Flavien JOURDREN <email@fjourdren.com>
 
 # Install Node.js
 RUN apt-get update && apt-get install --yes curl && apt-get install --yes gnupg2
-RUN curl --silent --location https://deb.nodesource.com/setup_6.x | bash -
+RUN curl --silent --location https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install --yes nodejs
 RUN apt-get install --yes build-essential
 
