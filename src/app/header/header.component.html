@@ -20,9 +20,16 @@
   </div>
   <a class="navbar-brand" href="/#/veillej" *ngIf="active!='veillej'" (click)="onSelect('veillej')">Veille juridique</a>
 
+  <!-- 
   <div *ngIf="active=='veillet'" class="active">
     <a class="navbar-brand" href="/#/veillet" (click)="onSelect('veillet')">Veille technologique</a>
   </div>
-  <a class="navbar-brand" href="/#/veillet" *ngIf="active!='veillet'" (click)="onSelect('veillet')">Veille technologique</a>
+  <a class="navbar-brand" href="/#/veillet" *ngIf="active!='veillet'" (click)="onSelect('veillet')">Veille technologique</a> 
+  -->
+
+  <div *ngIf="active=='e6'" class="active">
+    <a class="navbar-brand" href="/#/E6" (click)="onSelect('e6')">E6</a>
+  </div>
+  <a class="navbar-brand" href="/#/E6" *ngIf="active!='e6'" (click)="onSelect('e6')">E6</a>
 
 </nav>

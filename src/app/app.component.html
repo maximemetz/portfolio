@@ -3,11 +3,18 @@
     <app-header (selectedPage)="onNavigate($event)"></app-header>
 
     <div *ngIf="activePage === 'accueil'">
-        Work !
+
+        <!-- Work !
+
+        <iframe width="850" height="600" src="https://prezi.com/view/drL14xoOls994Zn64wwO/embed" webkitallowfullscreen="1" mozallowfullscreen="1"
+            allowfullscreen="1"></iframe> -->
+
     </div>
 
     <app-cv *ngIf="activePage === 'cv'"></app-cv>
 
     <app-veillej *ngIf="activePage === 'veillej'"></app-veillej>
+
+    <app-e6 *ngIf="activePage === 'e6'"></app-e6>
 
 </div>

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CvComponent } from './cv/cv.component';
 import { VeillejComponent } from './veillej/veillej.component';
+import { E6Component } from './e6/e6.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { VeillejComponent } from './veillej/veillej.component';
     AppComponent,
     HeaderComponent,
     CvComponent,
-    VeillejComponent
+    VeillejComponent,
+    E6Component
   ],
   imports: [
     BrowserModule,
